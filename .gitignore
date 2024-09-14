@@ -6,6 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignorar el entorno virtual
+venv/
+
+# Ignorar archivos de configuración específicos del entorno
+*.pyc
+__pycache__/
+
+# Ignorar archivos de configuración del editor
+.vscode/
+.idea/
+
+
 # Distribution / packaging
 .Python
 build/
@@ -20,6 +32,7 @@ parts/
 sdist/
 var/
 wheels/
+
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
